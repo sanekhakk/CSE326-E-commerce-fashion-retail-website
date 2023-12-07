@@ -1,0 +1,211 @@
+.heading{
+    font-style: initial; font-size: 300%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(152, 151, 151, 0.226);color: rgb(0, 0, 0);text-align: center;
+    margin-top: 0%;background-position: center;
+    line-height:50%;
+    padding-block: 30px;
+    background-blend-mode: soft-light;
+    padding-top: 3%;
+    }
+.banner{
+    opacity: 80%;
+    width:100%;
+}
+span{
+    font-style: italic; color:rgb(91, 91, 91);
+    text-align: center;
+    font-size: small;
+    line-height: 150%;  
+                
+}
+body{
+    background-image: "https://img.freepik.com/premium-photo/beautiful-cheerful-girl-yellow-scarf-warm-clothes-standing-indoors-against-background-with-reflections_146671-33465.jpg";
+    background-blend-mode: multiply;
+    background-size: cover ;
+}
+.category{
+    color:  rgb(94, 53, 24);
+    font-size: 120%;
+    padding-left:  3%;
+    padding-top: 1%; 
+    text-align: center;
+}
+.women{
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    padding-left:  3%; 
+    text-align: center;
+    background-color:rgba(95, 95, 95, 0.226);
+}
+.men{
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    padding-left:  3%; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.154);
+}
+.mainbody{
+    background-color: rgba(240, 248, 255, 0.49);
+}
+.search input {
+    position: absolute;left:10%;width:50%;padding-top: 1%;
+}
+.womenlink , .menlink , .kidslink , .viewmorelink ,.brandslink,.loginlink, .cart ,.home{
+    display: inline;
+    font-size: 20%;
+    padding: 20px;
+    color: #000000;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.brands{
+    size: 20px;
+    padding-left: 2px;
+    display: inline;
+}
+.topbar input[type=text] {
+    text-align: left;
+    width:30%;
+    opacity: 80%;
+    border-radius: 70px;
+    border-width: 0%;
+    padding: 3px;
+  }
+  .menlink:hover {
+    opacity: 0.5;
+    
+  }
+  .womenlink:hover {
+    opacity: 0.5;
+  }
+  .home:hover {
+    opacity: 0.5;
+  }
+  .brandslink:hover {
+    opacity: 0.5;
+  }
+  .kidslink:hover {
+    opacity: 0.5;
+  }
+  .viewmorelink:hover {
+    opacity: 0.5;
+  }
+  .cart:hover {
+    opacity: 0.5;
+  }
+  .loginlink:hover {
+    opacity: 0.5;
+  }
+  .product1women , .product2women ,.product3women{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-left:6%;
+    text-align: center;
+    font-family: arial;
+    padding-top: 5%;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .product1women button , .product2women button , .product3women button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .product1women button:hover  ,.product2women button:hover , .product3women button:hover {
+    opacity: 0.7;
+    
+  }
+  
+  .product1women, .product2women , .product3women {
+    display: inline-block;
+  }
+  form {
+    border: 3px solid #f1f1f1;
+    
+  }
+  
+  
+  input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 35%;
+  }
+  
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 35%;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  
+  .imgcontainer {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    
+  }
+  
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+ 
+  .container {
+    padding: 16px;
+    
+  }
+  
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
